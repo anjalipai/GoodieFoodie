@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/recipelist"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Coriander Rice"
+        android:id="@+id/CorianderRiceTV"
+        android:textSize="21dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#ff490e04"
+        android:textStyle="bold|italic"
+        android:clickable="true"
+        android:onClick="click"
+
+
+        />
+
+</RelativeLayout>
